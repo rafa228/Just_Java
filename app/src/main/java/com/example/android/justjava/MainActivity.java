@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
         // Use an intent to launch an email app.
         // Send the order summary in the email body.
         Intent intent = new Intent(Intent.ACTION_SENDTO);
-        intent.setData(Uri.parse("mailto:ariefineka@gmail.com")); // only email apps should handle this
+        intent.setData(Uri.parse("mailto:mrafly75@gmail.com")); // only email apps should handle this
         intent.putExtra(Intent.EXTRA_SUBJECT,
                 getString(R.string.order_summary_email_subject, name));
         intent.putExtra(Intent.EXTRA_TEXT, message);
